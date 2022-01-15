@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #2B2720;
+    font-family: 'Zilla Slab', serif;
+}
+
 img {
     height: 42px;
     width: auto;
@@ -26,6 +31,7 @@ a {
 
 header{
     margin-top: 50px;
+    color: #A8968D;
 }
 
 .container {
@@ -53,7 +59,7 @@ header{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #2a2a57;
+    background-color: #A8968D;
 }
 
 .nav-menu {
@@ -68,7 +74,7 @@ header{
 
 .nav-link{
     font-size: 24px;
-    color: #2a2a57;
+    color: #A8968D;
 }
 
 .nav-link:hover{
