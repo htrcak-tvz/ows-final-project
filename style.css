@@ -46,6 +46,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    border-top: 2px solid #A8968D;
+    text-transform: uppercase;
 }
 
 .hamburger {
