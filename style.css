@@ -6,13 +6,14 @@
     box-sizing: border-box;
 }
 
+body, .nav-link {
+    color: #A8968D;
+}
+
 main {
     margin-top: 50px;
 }
 
-body, .nav-link {
-    color: #A8968D;
-}
 
 .line {
     margin: 0 auto;
@@ -25,12 +26,6 @@ body, .nav-link {
 body {
     background-color: #221e19;
     font-family: 'Zilla Slab', serif;
-}
-
-img {
-    height: 42px;
-    width: auto;
-    margin-top: 2px;
 }
 
 html {
@@ -55,6 +50,12 @@ header{
     padding: 0 12% 0 12%;
     box-sizing: border-box;
 }
+
+.split {
+    margin-top: 18px;
+}
+
+/* Navigation */
 
 .navbar {
     display: flex;
@@ -96,10 +97,16 @@ header{
     color: #4d4daa;
 }
 
+/* Main images */
+
 main img {
     display: block;
-    width: 100%;
+    width: 90%;
     height: 330px;
+}
+
+.flt {
+    
 }
 
 @media only screen and (max-width: 834px) {
