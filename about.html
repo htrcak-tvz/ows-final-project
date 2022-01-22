@@ -56,7 +56,11 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <h2>Hello, I'm Sebastijan Dračić</h2>
-                        <img src="./res/img/sd-about.jpg" alt="">
+                        <picture class="large-pic">
+                            <source media="(min-width: 1024px)" srcset="./res/img/sd-about.jpg">
+                            <source media="(min-width: 640px)" srcset="./res/img/sd-about-small.jpg">
+                            <img src="./res/img/sd-about-x-small.jpg" alt="">
+                        </picture>
                     </div>
                 </div>
                 <div class="row add-margin">
