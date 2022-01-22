@@ -127,10 +127,6 @@ main img {
     height: 100%;
 }
 
-main img:hover {
-    opacity: 0.7;
-}
-
 main .add-margin {
     margin-top: 24px;
 }
