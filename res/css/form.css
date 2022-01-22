@@ -1,0 +1,53 @@
+/* CSS for form input*/
+
+img {
+    border-radius: 2px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input, select, textarea {
+    width: 100%;
+    border: 1px solid #4b404a;
+    background-color: #93837B;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    resize: vertical;
+    color: white;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 0.05rem;
+}
+
+input::placeholder, select::placeholder, textarea::placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 0.05rem;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid green;
+    background-color: #6e626c;
+    color: white;
+    letter-spacing: 0.05rem;
+    font-family: 'Zilla Slab', serif;
+}
+  
+input[type=submit] {
+    background-color: #93837B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #6e626c;
+}
