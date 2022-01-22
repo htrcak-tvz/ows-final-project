@@ -127,7 +127,7 @@ main img {
     height: 100%;
 }
 
-main .add-margin {
+main .add-margin { /* TODO update this? =main bottom margin*/
     margin-top: 24px;
 }
 
