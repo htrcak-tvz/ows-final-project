@@ -8,6 +8,10 @@ form {
     margin-top: 50px;
 }
 
+label {
+    font-weight: 600;
+}
+
 input, select, textarea {
     width: 100%;
     border: 1px solid #4b404a;
@@ -32,15 +36,14 @@ input::placeholder, select::placeholder, textarea::placeholder {
 }
 
 input:focus, select:focus, textarea:focus {
-    outline: 2px solid green;
-    background-color: #6e626c;
+    outline: 3px solid #554853;
     color: white;
     letter-spacing: 0.05rem;
     font-family: 'Zilla Slab', serif;
 }
   
 input[type=submit] {
-    background-color: #93837B;
+    background-color: #6e626c;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -49,5 +52,5 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #6e626c;
+    background-color: #7e737d;
 }
