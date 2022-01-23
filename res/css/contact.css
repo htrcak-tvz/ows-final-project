@@ -59,7 +59,7 @@ input[type=submit]:hover {
     background-color: #7e737d;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
 
     .contact-wrapper {
         margin-left: 0px;
