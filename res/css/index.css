@@ -1,3 +1,11 @@
 main img:hover {
     opacity: 0.7;
 }
+
+@media only screen and (max-width: 767px) {
+
+    main img {
+        padding-bottom: 30px;
+    }
+    
+}
