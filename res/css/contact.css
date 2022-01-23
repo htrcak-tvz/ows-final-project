@@ -4,6 +4,10 @@ picture {
     border-radius: 2px;
 }
 
+.contact-wrapper {
+    margin-left: 30px;
+}
+
 form {
     margin-top: 50px;
 }
@@ -53,4 +57,13 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color: #7e737d;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .contact-wrapper {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    
 }

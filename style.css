@@ -46,13 +46,6 @@ header{
     margin-top: 50px;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 12% 0 12%;
-    box-sizing: border-box;
-}
-
 .split {
     margin-top: 18px;
 }
@@ -117,10 +110,6 @@ h4 {
     margin-bottom: 53px;
 }
 
-.contact-wrapper {
-    margin-left: 30px;
-}
-
 main img {
     display: block;
     width: 100%;
@@ -145,7 +134,7 @@ footer {
    text-align: center;
 }
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 991px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -187,9 +176,5 @@ footer {
 }
 
 @media only screen and (max-width: 408px) {
-
-    .container {
-        padding: 0 2% 0 2%;
-    }
     
 }
